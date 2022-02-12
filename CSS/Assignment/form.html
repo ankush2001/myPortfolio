@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        h1 {
+            display: block;
+            position: relative;
+            align-content: center;
+
+        }
+
+        .SignUp {
+            margin: 20px 40px;
+            background-color: antiquewhite;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            overflow: hidden;
+            width: 1000px;
+            max-width: 100%;
+            min-height: 200px;
+            position: relative;
+        }
+
+        @media (max-width: 800px) {
+            form {
+                float: right;
+                display: flex;
+                align-items: center;
+                align-content: center;
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                padding-right: 120px;
+                margin-top: 10px;
+            }
+
+            input {
+                padding: 10px 12px;
+                border: 2px solid rgb(0, 0, 0);
+                width: 100%;
+                margin: 10px 10px;
+                background-color: aliceblue;
+            }
+
+            .img1 {
+                display: inline-block;
+                max-width: 50%;
+                align-content: center;
+                margin-left: 50px;
+                margin-top: 10px;
+                
+            }
+          
+        }
+
+
+        @media (min-width:600px) {
+            form {
+                float: right;
+                display: flex;
+                align-items: center;
+                align-content: center;
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                padding-right: 120px;
+                margin-top: 60px;
+            }
+
+            input {
+                padding: 12px 15px;
+                border: 2px solid rgb(0, 0, 0);
+                width: 100%;
+                margin: 20px;
+                background-color: aliceblue;
+                z-index: 2;
+            }
+
+            .img1 {
+                display: inline-block;
+                max-width: 50%;
+                align-content: center;
+                margin-left: 20px;
+                margin-top: 10px;
+                
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: .5em 2.5em;
+            background: black;
+            color: white;
+            text-decoration: none;
+            font-size: .8em;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin-top: 1em;
+        }
+
+
+        .log {
+            margin-top: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="SignUp">
+        <h1>Create Account</h1>
+        <img src="/CSS/Assignment/bq.jpg" alt="Error" class="img1">
+        <form action="">
+            <input type="text" name="First_name" placeholder="First Name">
+            <input type="text" name="Last_name" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email Id">
+            <input type="password" name="password" placeholder="Password">
+            <input type="Confirm_password" name="Confirm_password" placeholder="Confirm Password">
+            <button class="btn">Create</button>
+            <h5 class="log">Already have an account <a href="/CSS/Assignment/Login.html
+                ">Login</a></h5>
+        </form>
+    </div>
+
+</body>
+
+
+</html>

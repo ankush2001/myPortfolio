@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* flex-direction: row-reverse; */
+            height: 250vh;
+            background-color: black;
+            justify-content: flex-start ;
+            align-content: center;
+        }
+
+        .box1 {
+            height: 334px;
+            width: 348px;
+            background-color: cornflowerblue;
+            border: 2px solid black;
+           
+        }
+
+        .box2 {
+            background-color: cyan;
+            height: 334px;
+            width: 348px;
+            border: 2px solid black;
+
+        }
+        .box4{
+            background-color: cyan;
+            height: 334px;
+            width: 348px;
+            border: 2px solid black;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="box1">box1</div>
+            <div class="box2">box2</div>
+            <div class="box2">box3</div> 
+            <div class="box4">box4</div>
+    </main>
+    </div>
+
+</body>
+
+</html>

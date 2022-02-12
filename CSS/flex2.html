@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex practice 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 25px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid wheat;
+        }
+        li{
+            display: inline-block;
+            color: azure;
+            margin: 0px 18px;
+            list-style: none;
+        }
+        .container1{
+            display: flex;
+            justify-content: center;
+        }
+        .nn{
+            width: 1500px;
+            height: 600px;
+        }
+        .container2{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/user.jpeg" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Fun1</li>
+            <li>Fun2</li>
+            <li>Fun3</li>
+        </ul>
+    </header>
+    <main>
+        
+        <div class="container1">
+            <img src="/back.jpg" alt="" class="nn">
+        </div>
+        <div class="container2">
+            <img src="/user.jpeg" alt="">
+            <img src="/user.jpeg" alt="">
+            <img src="/user.jpeg" alt="">
+        </div>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background-color: cornflowerblue;
+    color: rgb(245, 243, 243);
+    border: 2px solid #000000;
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+}
+.container{
+   margin-top: 10px;
+    background-color: azure;
+    
+    padding: auto;
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+}
